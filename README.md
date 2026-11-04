@@ -30,21 +30,21 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
   - No Credit cards
   - No Rate limits  
 
-## 🗓️ Day 1: AI Application Foundations
+## Topics
 
-### A) Tasks
+### AI Application Foundations
 
 - We setup and explore the following basic AI Application Workflow
 
   <img src="basic-ai-app-workflow.png">
-
-### B) Activities
+  
+- Activities
 
   * Chat
   * _Visual Question Answering (VQA)_
   * Document _Retrieval Augmented-Generation (RAG)_
   * Model switching for performance comparison and multimodality
-
+<!--
 ### C) Classroom / Lab 
 
 - [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/112DSm11HmI3j-Ousy5XHJ-vXQUvWiOah)
@@ -52,20 +52,20 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 ### D) Outcome
 
 - _"I understand the essential components and structure of a DIY AI application."_
-	
-## 🗓️ Day 2: Building a Custom AI App (Connecting AI to Software)
+-->
+<!--
+## Building Custom AI App (Connecting AI to Software)
 
-### A) Task
-
-- We combine our AI backend (_Ollama_ + _LLM_) with a _Streamlit-based_ frontend for a diversified UI
+- We combine our AI backend with diversified 
 	
   <img src="streamlit-text2sql.png">
 
-### B) Activities
+- Activities
 	
 * Text-to-SQL
 * Data analysis and Visualization of SQL query results (Charts, Graphs)
-
+-->
+<!--
 ### C) Classroom / Lab
 
 - [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1282oV3I0y7MJoC5g0uhpVZuHcbFNeIbV)
@@ -73,40 +73,35 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 ### D) Outcome
 
 - _"I can build a custom frontend to extend AI app usability"_
+-->
 
-## 🗓️ Day 3: RAG Pipelines (Connecting AI to Knowledge)
+## RAG Pipelines (Connecting AI to Knowledge)
 
-### A) Tasks
 - We explore and construct RAG pipelines for documents and images
 	
 	<img src="doc-img-rag.png">
 
-### B) Activities
-- Summarize documents (PDFs, Markdown, etc) with an offline engine
-- Offline cross-modal semantic search on a private collection of images
-
+- Activities
+	- Summarize documents (PDFs, Markdown, etc) with an offline engine
+	- Offline cross-modal semantic search on a private collection of images
+<!--
 ### C) Classroom / Lab
 
 - [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lovtOi-YHYqpTAolaFedJIygIGlErUfa)
   
 ### D) Outcome
 - _"I can build AI apps that can retrieve and analyze **privately** stored information."_
+-->
 
-## 🗓️ Day 4: AI Agents (Connecting AI to Systems)
-
-### A) Task
+## AI Agents (Connecting AI to Systems)
 
 - We employ [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) for a fully edge AI solution capable of tool use, function calling, and MCP
   
   <img src="qwen3-qwen-agent.png">
 
-### B) Activities
-- Connect/Implement tools
-  * Calculator tool
-  * Weather tool
-  * Web search tool
-  * Home automation tool
-
+- Activities
+	- Connect/Implement tools e.g. Calculator tool, Weather tool, Web search tool, Home automation tool
+<!--
 ### C) Classroom / Lab
 
 - [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/112DSm11HmI3j-Ousy5XHJ-vXQUvWiOah)
@@ -114,7 +109,7 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
   
 ### D) Outcome
 - _"I can automate how AI takes actions and interacts with external systems."_
-
+-->
 <!--
 Notice this is not yet CrewAI territory.
 
@@ -128,8 +123,9 @@ Critic Agent
 ```
 -->
 
-## 🗓️ Day 5: Capstone Projects
+## Capstone Projects
 
+<!--
 ### A) School Sports Activity Planner
 
 - Given a list of sports activities (by a student), the AI agent should be able to recommend a schedule for the week/month based on time of day, weather forecast, facility maintanance schedules, School calender, National calender, etc
@@ -138,3 +134,5 @@ Critic Agent
 
 - A **privacy first** and **offline** AI assistant capable of indexing a user's private collection of photos and retrieving them according to cross-modal queries (i.e. text prompts or image semantic searches)
 
+
+-->
