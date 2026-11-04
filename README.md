@@ -1,7 +1,9 @@
 <div align="center">
 <h1> Welcome to the "AI App Builders" Program!</h1>
+	
+<img width="794" height="1123" alt="Remix — A4 portrait@1x" src="https://github.com/user-attachments/assets/bab1ca71-d61c-4305-96bd-5920b459f8e1" />
 
-<img width="1393" height="777" alt="NAIROlab co ke" src="https://github.com/user-attachments/assets/5f3004c9-a41f-4924-8a62-15e6bc06f1a2" />
+<!-- <img width="1393" height="777" alt="NAIROlab co ke" src="https://github.com/user-attachments/assets/5f3004c9-a41f-4924-8a62-15e6bc06f1a2" /> -->
 
 </div>
 
