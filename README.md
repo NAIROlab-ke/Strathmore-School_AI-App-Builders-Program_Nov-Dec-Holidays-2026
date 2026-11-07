@@ -97,7 +97,7 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
 - We employ [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) for a fully edge AI solution capable of tool use, function calling, and MCP
   
-  <img src="qwen3-qwen-agent.png">
+  <img src="ai-agents.png">
 
 - Activities
 	- Connect/Implement tools e.g. Calculator tool, Weather tool, Web search tool, Home automation tool
