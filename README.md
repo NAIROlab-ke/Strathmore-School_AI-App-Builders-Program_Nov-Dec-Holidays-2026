@@ -53,18 +53,18 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
 - _"I understand the essential components and structure of a DIY AI application."_
 -->
-<!--
+
 ## Building Custom AI App (Connecting AI to Software)
 
-- We combine our AI backend with diversified 
+- We explore a few common use cases e.g.
 	
   <img src="streamlit-text2sql.png">
 
 - Activities
 	
-* Text-to-SQL
-* Data analysis and Visualization of SQL query results (Charts, Graphs)
--->
+	* Text-to-SQL
+	* Data analysis and Visualization of SQL query results (Charts, Graphs)
+
 <!--
 ### C) Classroom / Lab
 
