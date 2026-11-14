@@ -13,9 +13,9 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
 **This program subscribes to:**
 
-- **Low-code setups**
+- **Complete setups**
   
-  Given the limited time window, and the diverse technical background of the audience, we restrict coding in Python to a minimum. Nevertheless, our case studies are structured such that they can be easily extended by those with more advanced Python skills.
+  Students get both the finished apps and the full Python code behind it. Students who can code can extend the apps. Beginners start by experimenting with the AI concepts in the apps, then work their way back through the code. All the AI models run inside a Google Colab session in the cloud.
   
 - **Modern AI Paradigms**
   
@@ -32,6 +32,49 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
 ## Topics
 
+AI App Builders is a hands-on program where students build real AI apps, and discover that what makes a modern AI app useful is usually an AI agent inside it. 
+
+A language model on its own can only predict the next word, so it guesses, sometimes confidently and wrongly. An agent wraps the model in a simple loop: it decides what to do, acts by calling a tool (running Python code, searching documents, querying a database), observes the result, and repeats until it can give an answer it has checked. 
+
+<img src="ai-agents.png">
+ 
+Each app below is that same loop with a different tool: Code fixes date and letter-counting mistakes, document search grounds answers in a handbook, and SQL turns 92 years of World Cup data into charts. 
+
+Students get both the working app and its full code: beginners start by experimenting with the app, while experienced coders extend it. The apps run on small, open models (Qwen3) inside Google Colab, with no paid AI service. That makes their mistakes easier to see, so students learn not just to build AI apps, but when to trust them and how to check their work.
+
+### Reducing LLM hallucination with agentic AI
+
+- Large language models (LLMs) sometimes give confident but wrong answers, especially when they answer straight from the prompt. Smaller, self-hosted models like the Qwen models we'll use do this more often.
+- This video shows an AI agent checking its answer by running code instead of guessing.
+- [YouTube](https://youtu.be/XmSW0WxyhFw)
+  
+### Working around a built-in LLM limitation with agentic AI
+
+- LLMs read text as tokens (words or pieces of words), not individual letters.
+- So simple tasks like counting the letters in a word can trip them up without some help, especially smaller models.
+- This video shows an agent using a tool to get it right.
+- [YouTube](https://youtu.be/XNNcMLpdb3g)
+
+### Answering questions from your own documents (RAG)
+
+- An LLM only knows what it learned in training. RAG lets it search documents it has never seen, such as a school handbook, before answering.
+- This video shows the agent finding the answer in a handbook and quoting its source.
+- [YouTube](https://youtu.be/sGuqe05esxo)
+
+### Text-to-SQL: an AI data analyst
+
+- An LLM can turn a plain-English question into a database query (SQL). An AI agent goes further: it reads the database's error messages, fixes its own queries, and the app turns the results into charts.
+- It still makes mistakes, so the SQL is always shown. Students learn to check the AI's work, not just trust it.
+- This video shows the agent analysing 92 years of men's World Cup data.
+- [YouTube](https://youtu.be/_kUbgBJPulk)
+
+
+### Multimodality: Helping a vision model with image tools
+
+- A small vision language model (VLM) can make mistakes about what's in an image. External tools, such as an object detector (e.g. YOLO!) and cropping, help it check its own work.
+- [YouTube](https://youtu.be/-8sPzFp-DHI)
+  
+<!--
 ### AI Application Foundations
 
 - We setup and explore the following basic AI Application Workflow
@@ -42,8 +85,8 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
   * Chat
   * _Visual Question Answering (VQA)_
-  * Document _Retrieval Augmented-Generation (RAG)_
   * Model switching for performance comparison and multimodality
+-->
 <!--
 ### C) Classroom / Lab 
 
@@ -53,7 +96,7 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
 - _"I understand the essential components and structure of a DIY AI application."_
 -->
-
+<!--
 ## Building Custom AI App (Connecting AI to Software)
 
 - We explore a few common use cases e.g.
@@ -64,7 +107,7 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 	
 	* Text-to-SQL
 	* Data analysis and Visualization of SQL query results (Charts, Graphs)
-
+-->
 <!--
 ### C) Classroom / Lab
 
@@ -74,7 +117,7 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
 - _"I can build a custom frontend to extend AI app usability"_
 -->
-
+<!--
 ## RAG Pipelines (Connecting AI to Knowledge)
 
 - We explore and construct RAG pipelines for documents and images
@@ -84,6 +127,7 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 - Activities
 	- Summarize documents (PDFs, Markdown, etc) with an offline engine
 	- Offline cross-modal semantic search on a private collection of images
+-->  
 <!--
 ### C) Classroom / Lab
 
@@ -92,7 +136,7 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 ### D) Outcome
 - _"I can build AI apps that can retrieve and analyze **privately** stored information."_
 -->
-
+<!--
 ## AI Agents (Connecting AI to Systems)
 
 - We employ [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) for a fully edge AI solution capable of tool use, function calling, and MCP
