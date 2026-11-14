@@ -46,33 +46,34 @@ Students get both the working app and its full code: beginners start by experime
 
 - Large language models (LLMs) sometimes give confident but wrong answers, especially when they answer straight from the prompt. Smaller, self-hosted models like the Qwen models we'll use do this more often.
 - This video shows an AI agent checking its answer by running code instead of guessing.
-- [YouTube](https://youtu.be/XmSW0WxyhFw)
+- [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/XmSW0WxyhFw) 
+
   
 ### Working around a built-in LLM limitation with agentic AI
 
 - LLMs read text as tokens (words or pieces of words), not individual letters.
 - So simple tasks like counting the letters in a word can trip them up without some help, especially smaller models.
 - This video shows an agent using a tool to get it right.
-- [YouTube](https://youtu.be/XNNcMLpdb3g)
+- [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/XNNcMLpdb3g)
 
 ### Answering questions from your own documents (RAG)
 
 - An LLM only knows what it learned in training. RAG lets it search documents it has never seen, such as a school handbook, before answering.
 - This video shows the agent finding the answer in a handbook and quoting its source.
-- [YouTube](https://youtu.be/sGuqe05esxo)
+- [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/sGuqe05esxo)
 
 ### Text-to-SQL: an AI data analyst
 
 - An LLM can turn a plain-English question into a database query (SQL). An AI agent goes further: it reads the database's error messages, fixes its own queries, and the app turns the results into charts.
 - It still makes mistakes, so the SQL is always shown. Students learn to check the AI's work, not just trust it.
 - This video shows the agent analysing 92 years of men's World Cup data.
-- [YouTube](https://youtu.be/_kUbgBJPulk)
+- [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/_kUbgBJPulk)
 
 
 ### Multimodality: Helping a vision model with image tools
 
 - A small vision language model (VLM) can make mistakes about what's in an image. External tools, such as an object detector (e.g. YOLO!) and cropping, help it check its own work.
-- [YouTube](https://youtu.be/-8sPzFp-DHI)
+- [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/-8sPzFp-DHI)
   
 <!--
 ### AI Application Foundations
