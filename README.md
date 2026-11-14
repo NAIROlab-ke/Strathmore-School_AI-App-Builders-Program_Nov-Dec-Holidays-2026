@@ -15,7 +15,7 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
 - **Complete setups**
   
-  Students get both the finished apps and the full Python code behind it. Students who can code can extend the apps. Beginners start by experimenting with the AI concepts in the apps, then work their way back through the code. All the AI models run inside a Google Colab session in the cloud.
+  Students get both the finished apps and the full Python code behind it. All the AI models/apps can be run inside a Google Colab session in the cloud.
   
 - **Modern AI Paradigms**
   
