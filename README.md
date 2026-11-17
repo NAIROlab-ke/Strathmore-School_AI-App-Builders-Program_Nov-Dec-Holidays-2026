@@ -41,36 +41,27 @@ Each app below is that same loop with a different tool: Code fixes date and lett
 
 Students get both the working app and its full code: beginners start by experimenting with the app, while experienced coders extend it. The apps run on small, open models (Qwen3) inside Google Colab, with no paid AI service. That makes their mistakes easier to see, so students learn not just to build AI apps, but when to trust them and how to check their work.
 
-### Reducing LLM hallucination with agentic AI
+### Working around LLM Limitations with agentic AI
 
-- Large language models (LLMs) sometimes give confident but wrong answers, especially when they answer straight from the prompt. Smaller, self-hosted models like the Qwen models we'll use do this more often.
-- This video shows an AI agent checking its answer by running code instead of guessing.
+- Large language models (LLMs) sometimes give confident but wrong answers a.k.a **hallucinations**, especially when they answer straight from the prompt, i.e. **zero-shot** mode.
+- Other issues arise from internal mechanisms e.g. tokenization (i.e. handling text as tokens (words or pieces of words) rather than individual characters).
+- These limitations are more pronounced with the smaller, self-hosted models that we'll be using e.g. Qwen.
 - [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RMxUH2_omLJ2H1y4f-79f1NkB8lkdmEI)
-- [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/XmSW0WxyhFw) 
-
-  
-### Working around a built-in LLM limitation with agentic AI
-
-- LLMs read text as tokens (words or pieces of words), not individual letters.
-- So simple tasks like counting the letters in a word can trip them up without some help, especially smaller models.
-- This video shows an agent using a tool to get it right.
-- [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RMxUH2_omLJ2H1y4f-79f1NkB8lkdmEI)
-- [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/XNNcMLpdb3g)
+- This video shows an AI agent checking its answer by running code instead of guessing, reducing hallucination [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/XmSW0WxyhFw) 
+- This video shows an agent using a tool to allow an LLM to count individual letters of words, circumventing limitations due to tokenization [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/XNNcMLpdb3g)
 
 ### Answering questions from your own documents (RAG)
 
 - An LLM only knows what it learned in training. RAG lets it search documents it has never seen, such as a school handbook, before answering.
-- This video shows the agent finding the answer in a handbook and quoting its source.
 - [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NUTMP2q99FXAalZuNzQ3fv8wf-xk0hPO)
-- [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/sGuqe05esxo)
+- This video shows the agent finding the answer in a handbook and quoting its source [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/sGuqe05esxo)
 
 ### Text-to-SQL: an AI data analyst
 
 - An LLM can turn a plain-English question into a database query (SQL). An AI agent goes further: it reads the database's error messages, fixes its own queries, and the app turns the results into charts.
 - It still makes mistakes, so the SQL is always shown. Students learn to check the AI's work, not just trust it.
-- This video shows the agent analysing 92 years of men's World Cup data.
 - [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zuLeuSNHVh2jZ00e0FKUSF33TpnA5lQ6)
-- [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/_kUbgBJPulk)
+- This video shows the agent analysing 92 years of men's World Cup data [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/_kUbgBJPulk)
 
 
 ### Multimodality: Helping a vision model with image tools
