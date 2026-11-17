@@ -43,31 +43,36 @@ Students get both the working app and its full code: beginners start by experime
 
 ### Working around LLM Limitations with agentic AI
 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RMxUH2_omLJ2H1y4f-79f1NkB8lkdmEI)
+
 - Large language models (LLMs) sometimes give confident but wrong answers a.k.a **hallucinations**, especially when they answer straight from the prompt, i.e. **zero-shot** mode.
 - Other issues arise from internal mechanisms e.g. tokenization (i.e. handling text as tokens (words or pieces of words) rather than individual characters).
 - These limitations are more pronounced with the smaller, self-hosted models that we'll be using e.g. Qwen.
-- [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RMxUH2_omLJ2H1y4f-79f1NkB8lkdmEI)
 - This video shows an AI agent checking its answer by running code instead of guessing, reducing hallucination [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/XmSW0WxyhFw) 
 - This video shows an agent using a tool to allow an LLM to count individual letters of words, circumventing limitations due to tokenization [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/XNNcMLpdb3g)
 
 ### Answering questions from your own documents (RAG)
 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NUTMP2q99FXAalZuNzQ3fv8wf-xk0hPO)
+
 - An LLM only knows what it learned in training. RAG lets it search documents it has never seen, such as a school handbook, before answering.
-- [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NUTMP2q99FXAalZuNzQ3fv8wf-xk0hPO)
 - This video shows the agent finding the answer in a handbook and quoting its source [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/sGuqe05esxo)
 
 ### Text-to-SQL: an AI data analyst
 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zuLeuSNHVh2jZ00e0FKUSF33TpnA5lQ6)
+
 - An LLM can turn a plain-English question into a database query (SQL). An AI agent goes further: it reads the database's error messages, fixes its own queries, and the app turns the results into charts.
 - It still makes mistakes, so the SQL is always shown. Students learn to check the AI's work, not just trust it.
-- [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zuLeuSNHVh2jZ00e0FKUSF33TpnA5lQ6)
+
 - This video shows the agent analysing 92 years of men's World Cup data [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/_kUbgBJPulk)
 
 
 ### Multimodality: Helping a vision model with image tools
 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NzGY2ni-TJNzCYGPvjtmogZRRgCig2Gz)
+
 - A small vision language model (VLM) can make mistakes about what's in an image. External tools, such as an object detector (e.g. YOLO!) and cropping, help it check its own work.
-- [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NzGY2ni-TJNzCYGPvjtmogZRRgCig2Gz)
 - [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/-8sPzFp-DHI)
   
 <!--
