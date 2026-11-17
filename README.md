@@ -41,6 +41,8 @@ Each app below is that same loop with a different tool: Code fixes date and lett
 
 Students get both the working app and its full code: beginners start by experimenting with the app, while experienced coders extend it. The apps run on small, open models (Qwen3) inside Google Colab, with no paid AI service. That makes their mistakes easier to see, so students learn not just to build AI apps, but when to trust them and how to check their work.
 
+---
+
 ### Working around LLM Limitations with agentic AI
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RMxUH2_omLJ2H1y4f-79f1NkB8lkdmEI)
@@ -51,12 +53,16 @@ Students get both the working app and its full code: beginners start by experime
 - This video shows an AI agent checking its answer by running code instead of guessing, reducing hallucination [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/XmSW0WxyhFw) 
 - This video shows an agent using a tool to allow an LLM to count individual letters of words, circumventing limitations due to tokenization [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/XNNcMLpdb3g)
 
+---
+
 ### Answering questions from your own documents (RAG)
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NUTMP2q99FXAalZuNzQ3fv8wf-xk0hPO)
 
 - An LLM only knows what it learned in training. RAG lets it search documents it has never seen, such as a school handbook, before answering.
 - This video shows the agent finding the answer in a handbook and quoting its source [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/sGuqe05esxo)
+
+---
 
 ### Text-to-SQL: an AI data analyst
 
@@ -67,6 +73,7 @@ Students get both the working app and its full code: beginners start by experime
 
 - This video shows the agent analysing 92 years of men's World Cup data [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/_kUbgBJPulk)
 
+---
 
 ### Multimodality: Helping a vision model with image tools
 
@@ -74,7 +81,24 @@ Students get both the working app and its full code: beginners start by experime
 
 - A small vision language model (VLM) can make mistakes about what's in an image. External tools, such as an object detector (e.g. YOLO!) and cropping, help it check its own work.
 - [![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/-8sPzFp-DHI)
-  
+
+---
+
+### Capstone Projects
+
+<!--
+### A) School Sports Activity Planner
+
+- Given a list of sports activities (by a student), the AI agent should be able to recommend a schedule for the week/month based on time of day, weather forecast, facility maintanance schedules, School calender, National calender, etc
+    
+### B) Fully-Edge Photo Album Assistant
+
+- A **privacy first** and **offline** AI assistant capable of indexing a user's private collection of photos and retrieving them according to cross-modal queries (i.e. text prompts or image semantic searches)
+
+
+-->
+
+
 <!--
 ### AI Application Foundations
 
@@ -167,17 +191,6 @@ Writer Agent
 Critic Agent
 ```
 -->
-
-## Capstone Projects
-
 <!--
-### A) School Sports Activity Planner
-
-- Given a list of sports activities (by a student), the AI agent should be able to recommend a schedule for the week/month based on time of day, weather forecast, facility maintanance schedules, School calender, National calender, etc
-    
-### B) Fully-Edge Photo Album Assistant
-
-- A **privacy first** and **offline** AI assistant capable of indexing a user's private collection of photos and retrieving them according to cross-modal queries (i.e. text prompts or image semantic searches)
-
-
+## Capstone Projects
 -->
