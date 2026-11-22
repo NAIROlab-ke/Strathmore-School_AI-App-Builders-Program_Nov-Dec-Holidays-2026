@@ -29,9 +29,15 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
   - No Credit cards
   - No Rate limits  
 
-## Topics
+## Slides
 
-AI App Builders is a hands-on program where students build real AI apps, and discover that what makes a modern AI app useful is usually an AI agent inside it. 
+1. [Applied LLMs: The Big Picture](https://drive.google.com/file/d/1ofoLVHo2In_F0rd8rsIum7kWF5YRhUO7/view?usp=drive_link)
+2. [Inside the Models: Tokens, Embeddings, Vector Databases](https://drive.google.com/file/d/1gGDWHjJdi05USaYA6P6KNdW3BqE08ihs/view?usp=drive_link)
+3. [Inside an Agent: Messages, Tools and the Loop](https://drive.google.com/file/d/1UyhkVT-4wWjUUDmFcOC-sZGm_LimQDza/view?usp=drive_link)
+4. [AI Data Analyst: Text2SQL, Databases and Charts](https://drive.google.com/file/d/1Bib4G1eQoYJ5gTsBvG95hbfBmZB-Tu5S/view?usp=drive_link)
+5. [An Agent that checks its own Work](https://drive.google.com/file/d/1eXwkh_GsNKnodwZZg_IBg9wjGTo-5HLQ/view?usp=drive_link)
+
+## Colab Notebooks
 
 A language model on its own can only predict the next word, so it guesses, sometimes confidently and wrongly. An agent wraps the model in a simple loop: it decides what to do, acts by calling a tool (running Python code, searching documents, querying a database), observes the result, and repeats until it can give an answer it has checked. 
 
@@ -42,6 +48,10 @@ Each app below is that same loop with a different tool: Code fixes date and lett
 Students get both the working app and its full code: beginners start by experimenting with the app, while experienced coders extend it. The apps run on small, open models (Qwen3) inside Google Colab, with no paid AI service. That makes their mistakes easier to see, so students learn not just to build AI apps, but when to trust them and how to check their work.
 
 ---
+
+### Python for AI Agents
+
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bYlqNORWIoQS1qKtk5szgVMczQE5Krn9)
 
 ### Working around LLM Limitations with agentic AI
 
