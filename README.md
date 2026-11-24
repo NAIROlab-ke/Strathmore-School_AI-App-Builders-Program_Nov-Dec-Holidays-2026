@@ -39,6 +39,10 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
 ## Colab Notebooks
 
+### **NEW!!!!**
+
+[Food finder app](https://colab.research.google.com/drive/1mqAYr89-7BvHO6zIkNoFOnZMKPh60iAb)
+
 A language model on its own can only predict the next word, so it guesses, sometimes confidently and wrongly. An agent wraps the model in a simple loop: it decides what to do, acts by calling a tool (running Python code, searching documents, querying a database), observes the result, and repeats until it can give an answer it has checked. 
 
 <img src="ai-agents.png">
