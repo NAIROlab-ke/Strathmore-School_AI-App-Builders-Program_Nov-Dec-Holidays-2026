@@ -39,6 +39,10 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
 ## Vibe Coding Prompts
 
+### Colab Notebook Template
+
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yWHpLd-OdR-gcJPHwcz8YrL0lsqJ-nOO)
+
 ### Procedure
 
 - Paste `ai_app_builder_template.ipynb` to a new chat along with the prompt "We are going to develop an app based on the notebook template attached."
