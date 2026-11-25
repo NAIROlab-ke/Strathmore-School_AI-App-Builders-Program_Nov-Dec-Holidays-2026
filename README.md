@@ -37,11 +37,161 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 4. [AI Data Analyst: Text2SQL, Databases and Charts](https://drive.google.com/file/d/1Bib4G1eQoYJ5gTsBvG95hbfBmZB-Tu5S/view?usp=drive_link)
 5. [An Agent that checks its own Work](https://drive.google.com/file/d/1eXwkh_GsNKnodwZZg_IBg9wjGTo-5HLQ/view?usp=drive_link)
 
+## Vibe Coding Prompts
+
+### Procedure
+
+- Paste `ai_app_builder_template.ipynb` to a new chat along with the prompt "We are going to develop an app based on the notebook template attached."
+
+- Use the following prompts
+
+# 1\. Car dealership (rules about money and mileage)
+
+## Prompt
+
+I'm building "Car Deals Finder", an app where car dealerships in Nairobi list used cars for sale.
+
+Cell 1 holds only my design, in five variables:
+
+- APP\_TITLE: name of the app  
+- TABLE: name of the table  
+- DATA: one table as CSV text, with these columns: dealer, area, make, model, year, body\_type, mileage\_km, fuel, price\_ksh, discount\_percent, offer\_until. Make up about 12 realistic rows. Dates as YYYY-MM-DD.  
+- RULES: one plain sentence per line explaining what the columns mean: "Prices are in KSh. 1.5M means 1500000." "The discount only counts if offer\_until is today or later." "body\_type is one of saloon, SUV, pickup or van." "Low mileage means under 80000 km."  
+- EXAMPLE\_QUESTION: "cheapest SUV under 2M with low mileage"
+
+## Response
+
+```py
+APP_TITLE = "Car Deals Finder"
+TABLE = "cars"
+
+DATA = """
+dealer, area, make, model, year, body_type, mileage_km, fuel, price_ksh, discount_percent, offer_until
+Oriel Limited, Mombasa Road, Subaru, Forester, 2017, SUV, 68000, petrol, 1980000, 5, 2026-12-15
+Oriel Limited, Mombasa Road, Toyota, Hilux Double Cab, 2016, pickup, 92000, diesel, 2450000, 0, 2026-10-15
+Al Siddique Motors, Ngong Road, Mazda, CX-5, 2018, SUV, 57000, petrol, 2350000, 6, 2026-12-20
+Al Siddique Motors, Ngong Road, Honda, Fit, 2019, saloon, 46000, petrol, 1180000, 0, 2026-09-25
+CarMax East Africa, Ngong Road, Nissan, Juke, 2018, SUV, 64000, petrol, 1890000, 5, 2026-12-10
+CarMax East Africa, Ngong Road, Toyota, Vitz, 2018, saloon, 52000, petrol, 1120000, 8, 2026-11-30
+Automark Kenya, Westlands, Toyota, Harrier, 2018, SUV, 61000, petrol, 2780000, 4, 2026-12-31
+Automark Kenya, Westlands, Volkswagen, Golf, 2017, saloon, 73000, petrol, 1540000, 0, 2026-10-01
+Magari Deals, Kilimani, Honda, Vezel, 2018, SUV, 55000, hybrid, 1960000, 6, 2026-12-18
+Magari Deals, Kilimani, Toyota, HiAce, 2015, van, 115000, diesel, 2050000, 0, 2026-11-05
+SokoMotor Yard, Industrial Area, Isuzu, D-Max, 2019, pickup, 62000, diesel, 2690000, 5, 2026-12-28
+SokoMotor Yard, Industrial Area, Nissan, Note, 2019, saloon, 48000, petrol, 1150000, 10, 2026-12-05
+"""
+
+RULES = """
+Prices are in KSh. 1.5M means 1500000.
+The discount only counts if offer_until is today or later.
+body_type is one of saloon, SUV, pickup or van.
+Low mileage means under 80000 km.
+"""
+
+EXAMPLE_QUESTION = "cheapest SUV under 2M with low mileage"
+```
+
+# 2\. Matatu and bus fares (rules about time)
+
+## Prompt
+
+I'm building "Fare Finder", an app where matatu and bus saccos in Nairobi list their routes and fares.
+
+Cell 1 holds only my design, in five variables:
+
+- APP\_TITLE: name of the app  
+- TABLE: name of the table  
+- DATA: one table as CSV text, with these columns: sacco, route\_number, from\_stage, to\_stage, offpeak\_fare\_ksh, peak\_fare\_ksh, first\_trip, last\_trip. Make up about 12 realistic rows. Times as HH:MM in 24-hour format.  
+- RULES: one plain sentence per line explaining what the columns mean: "Fares are in KSh." "Peak hours are 06:30 to 09:00 and 17:00 to 19:30; use peak\_fare\_ksh then, otherwise offpeak\_fare\_ksh." "A route is still running if the time asked about is between first\_trip and last\_trip." "Town means CBD."  
+- EXAMPLE\_QUESTION: "cheapest way from Rongai to town at 8am"
+
+## Response
+
+```py
+APP_TITLE = "Fare Finder"
+TABLE = "fares"
+
+DATA = """
+sacco, route_number, from_stage, to_stage, offpeak_fare_ksh, peak_fare_ksh, first_trip, last_trip
+Ongata Line, 125, Ongata Rongai, CBD, 80, 130, 05:00, 22:30
+Nangkis Sacco, 125, Ongata Rongai, CBD, 80, 120, 05:15, 22:00
+Super Metro, 11, Kikuyu, CBD, 90, 150, 05:00, 23:00
+Citi Hoppa, 34, Pipeline, CBD, 50, 90, 05:00, 22:30
+Forward Travellers, 46, Kawangware, CBD, 50, 80, 05:15, 22:00
+KBS, 23, Kibera, CBD, 50, 80, 05:30, 21:30
+Mwiki Travellers, 45, Mwiki, CBD, 60, 100, 05:00, 22:00
+Rembo Shuttle, 102, Ruiru, CBD, 100, 160, 05:00, 21:30
+Double M, 106, Ngong, CBD, 90, 140, 05:15, 22:00
+Kileleshwa Shuttle, 12, Kileleshwa, CBD, 40, 70, 05:45, 21:30
+Metro Shuttle, 2, Karen, CBD, 80, 130, 05:30, 21:00
+Eastleigh Express, 6, Eastleigh, CBD, 40, 70, 05:00, 22:00
+"""
+
+RULES = """
+Fares are in KSh.
+Peak hours are 06:30 to 09:00 and 17:00 to 19:30; use peak_fare_ksh then, otherwise offpeak_fare_ksh.
+A route is still running if the time asked about is between first_trip and last_trip.
+Town means CBD.
+"""
+
+EXAMPLE_QUESTION = "cheapest way from Rongai to town at 8am"
+```
+
+# 3\. Five-a-side football turfs (rules about availability)
+
+## Prompt
+
+I'm building "Turf Finder", an app where five-a-side football turfs in Nairobi list their booking slots.
+
+Cell 1 holds only my design, in five variables:
+
+- APP\_TITLE: name of the app  
+- TABLE: name of the table  
+- DATA: one table as CSV text, with these columns: turf, area, surface, floodlights, day, start\_time, price\_per\_hour\_ksh, booked. Make up about 12 realistic rows. Times as HH:MM in 24-hour format.  
+- RULES: one plain sentence per line explaining what the columns mean: "Prices are per hour, in KSh." "A slot can only be offered if booked is no." "floodlights is yes or no; any slot starting at 18:30 or later needs floodlights yes." "Split the price by the number of players if the customer says how many are coming."  
+- EXAMPLE\_QUESTION: "free turf in Kilimani on Saturday evening, there are 10 of us"
+
+## Response
+
+```py
+APP_TITLE = "Turf Finder"
+TABLE = "turfs"
+
+DATA = """
+turf, area, surface, floodlights, day, start_time, price_per_hour_ksh, booked
+Kilimani Pitches, Kilimani, artificial grass, yes, Saturday, 18:30, 4500, no
+Kilimani Pitches, Kilimani, artificial grass, yes, Saturday, 19:30, 4500, yes
+Kileleshwa 5s Arena, Kilimani, artificial grass, yes, Saturday, 17:00, 4000, no
+Kileleshwa 5s Arena, Kilimani, artificial grass, yes, Saturday, 20:00, 4200, no
+Westlands Cage, Westlands, artificial grass, yes, Saturday, 19:00, 5000, no
+Westlands Cage, Westlands, artificial grass, no, Saturday, 16:00, 3200, no
+Roysambu Kickabout, Roysambu, artificial grass, yes, Sunday, 18:30, 3500, no
+Roysambu Kickabout, Roysambu, artificial grass, no, Sunday, 15:00, 2500, yes
+Langata Astro Park, Langata, artificial grass, yes, Saturday, 19:00, 4200, no
+Langata Astro Park, Langata, artificial grass, yes, Friday, 20:30, 4200, no
+South B Goals, South B, artificial grass, yes, Saturday, 18:30, 3800, yes
+South B Goals, South B, artificial grass, no, Sunday, 14:00, 2600, no
+"""
+
+RULES = """
+Prices are per hour, in KSh.
+A slot can only be offered if booked is no.
+floodlights is yes or no; any slot starting at 18:30 or later needs floodlights yes.
+Split the price by the number of players if the customer says how many are coming.
+"""
+
+EXAMPLE_QUESTION = "free turf in Kilimani on Saturday evening, there are 10 of us"
+```
+
+---
+
+
 ## Colab Notebooks
 
 ### **NEW!!!!**
 
 [Food finder app](https://colab.research.google.com/drive/1mqAYr89-7BvHO6zIkNoFOnZMKPh60iAb)
+
 
 A language model on its own can only predict the next word, so it guesses, sometimes confidently and wrongly. An agent wraps the model in a simple loop: it decides what to do, acts by calling a tool (running Python code, searching documents, querying a database), observes the result, and repeats until it can give an answer it has checked. 
 
