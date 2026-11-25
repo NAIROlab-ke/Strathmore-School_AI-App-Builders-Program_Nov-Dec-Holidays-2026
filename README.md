@@ -67,7 +67,7 @@ Cell 1 holds only my design, in five variables:
 
 ```py
 APP_TITLE = "Car Deals Finder"
-TABLE = "cars"
+TABLE_NAME = "cars"
 
 DATA = """
 dealer, area, make, model, year, body_type, mileage_km, fuel, price_ksh, discount_percent, offer_until
@@ -113,7 +113,7 @@ Cell 1 holds only my design, in five variables:
 
 ```py
 APP_TITLE = "Fare Finder"
-TABLE = "fares"
+TABLE_NAME = "fares"
 
 DATA = """
 sacco, route_number, from_stage, to_stage, offpeak_fare_ksh, peak_fare_ksh, first_trip, last_trip
@@ -159,7 +159,7 @@ Cell 1 holds only my design, in five variables:
 
 ```py
 APP_TITLE = "Turf Finder"
-TABLE = "turfs"
+TABLE_NAME = "turfs"
 
 DATA = """
 turf, area, surface, floodlights, day, start_time, price_per_hour_ksh, booked
