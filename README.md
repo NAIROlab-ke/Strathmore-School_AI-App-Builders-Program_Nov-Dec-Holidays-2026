@@ -37,6 +37,15 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 4. [AI Data Analyst: Text2SQL, Databases and Charts](https://drive.google.com/file/d/1Bib4G1eQoYJ5gTsBvG95hbfBmZB-Tu5S/view?usp=drive_link)
 5. [An Agent that checks its own Work](https://drive.google.com/file/d/1eXwkh_GsNKnodwZZg_IBg9wjGTo-5HLQ/view?usp=drive_link)
 
+## Retrieval Augmented Generation (RAG)
+
+- [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VnPDew9jHtH-p6HMqvq6vTQcZ5qUAGZy)
+- [RAG Slides](https://drive.google.com/file/d/1owQd0GU5PKKx8lbxTPgj7XBsUtM5AZBL/view?usp=drive_link)
+- [Class Exercise](https://drive.google.com/file/d/1agXi8h5Qk-7840xPXqd1xjxLTi4eZtUi/view?usp=sharing)
+- [Society Constution](https://drive.google.com/file/d/1tIvoVxzlaVBLlf_owzAMxUKRxzWASGdj/view?usp=drive_link)
+- [Five-a-Side](https://drive.google.com/file/d/1YDMdnkPOcjgCgFsQbgHdQZBYrW5lz59P/view?usp=drive_link)
+- [Phone care terms](https://drive.google.com/file/d/1eQMSfycAcX576Ubtphk3bxSJddMz62rE/view?usp=drive_link)
+  
 ## Vibe Coding Prompts
 
 ### Colab Notebook Template
