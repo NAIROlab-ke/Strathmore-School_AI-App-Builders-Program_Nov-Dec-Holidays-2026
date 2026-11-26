@@ -50,7 +50,8 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 
 ### Colab Notebook Template
 
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yWHpLd-OdR-gcJPHwcz8YrL0lsqJ-nOO)
+- AI App builder template (Text2SQL) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yWHpLd-OdR-gcJPHwcz8YrL0lsqJ-nOO)
+- Under the hood: SQL and Pandas [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1t4VVfSJVwp5icra9Oi6U97sXJ2td1TFX)
 
 ### Procedure
 
