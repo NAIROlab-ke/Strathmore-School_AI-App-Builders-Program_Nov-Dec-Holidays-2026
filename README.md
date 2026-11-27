@@ -44,6 +44,7 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 - Shoe Store Demo
 	- [Kicks Shop - Ollama/Qwen3:8b Backend (HTML)](https://drive.google.com/file/d/1bIm_Zz1lpF-jRVAoJzVVXuhUNDHgvQK1/view?usp=sharing)
  	- [Kicks Shop - No Backend (HTML)](https://drive.google.com/file/d/16aclOL9DmUm487Zb0Va3ZbT8e9fHmWnL/view?usp=sharing)
+    - [NAIROlab App Template](https://drive.google.com/file/d/1JCbD2NIH60_s7_DZDnp5qtoMnGPk434d/view?usp=drive_link) 
     
 - Docs
 	- [Build Your Own AI App A Shop With AI Search (Text2SQL).pdf](https://drive.google.com/file/d/1E-uatlX5EhhH6UXyCaYUhUnUddW6CMcI/view?usp=sharing)
