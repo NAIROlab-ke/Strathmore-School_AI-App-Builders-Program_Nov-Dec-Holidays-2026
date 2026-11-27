@@ -37,7 +37,19 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 4. [AI Data Analyst: Text2SQL, Databases and Charts](https://drive.google.com/file/d/1Bib4G1eQoYJ5gTsBvG95hbfBmZB-Tu5S/view?usp=drive_link)
 5. [An Agent that checks its own Work](https://drive.google.com/file/d/1eXwkh_GsNKnodwZZg_IBg9wjGTo-5HLQ/view?usp=drive_link)
 
-## Retrieval Augmented Generation (RAG)
+## Frontend Dev (27th Nov)
+
+- Ollama Server [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1uTqSneK9b9u6g0vsiHDFfMU3H79AUZgg/view?usp=sharing)
+- [Chat Demo (HTML)](https://drive.google.com/file/d/1mukN3ly7cfj4WMrZsWdvO5qweavCuATX/view?usp=sharing)
+- Shoe Store Demo
+	- [Kicks Shop - Ollama/Qwen3:8b Backend (HTML)](https://drive.google.com/file/d/1bIm_Zz1lpF-jRVAoJzVVXuhUNDHgvQK1/view?usp=sharing)
+ 	- [Kicks Shop - No Backend (HTML)](https://drive.google.com/file/d/16aclOL9DmUm487Zb0Va3ZbT8e9fHmWnL/view?usp=sharing)
+    
+- Docs
+	- [Build Your Own AI App A Shop With AI Search (Text2SQL).pdf](https://drive.google.com/file/d/1E-uatlX5EhhH6UXyCaYUhUnUddW6CMcI/view?usp=sharing)
+ 	- [Build Your Own AI App Ask Your Documents (RAG).pdf](https://drive.google.com/file/d/1sCIQ-Tu-g2ENnDE5tU9vjCzo6PhOGJ_6/view?usp=sharing)
+  - 
+## Retrieval Augmented Generation, RAG (26th Nov)
 
 - [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VnPDew9jHtH-p6HMqvq6vTQcZ5qUAGZy)
 - [RAG Slides](https://drive.google.com/file/d/1owQd0GU5PKKx8lbxTPgj7XBsUtM5AZBL/view?usp=drive_link)
@@ -46,7 +58,7 @@ November/December 2026 Holiday Program for [Strathmore School](https://www.strat
 - [Five-a-Side](https://drive.google.com/file/d/1YDMdnkPOcjgCgFsQbgHdQZBYrW5lz59P/view?usp=drive_link)
 - [Phone care terms](https://drive.google.com/file/d/1eQMSfycAcX576Ubtphk3bxSJddMz62rE/view?usp=drive_link)
   
-## Vibe Coding Prompts
+## Vibe Coding Prompts (25th Nov)
 
 ### Colab Notebook Template
 
@@ -202,7 +214,7 @@ EXAMPLE_QUESTION = "free turf in Kilimani on Saturday evening, there are 10 of u
 
 ## Colab Notebooks
 
-### **NEW!!!!**
+### **NEW!!!!** (24th Nov)
 
 [Food finder app](https://colab.research.google.com/drive/1mqAYr89-7BvHO6zIkNoFOnZMKPh60iAb)
 
